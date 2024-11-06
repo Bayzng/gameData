@@ -16,8 +16,6 @@ coverage/
 
 # Environment files
 *.local
-.env
-.env.*
 !.env.example  # Keep an example for reference
 
 # Editor directories and files
