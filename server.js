@@ -29,7 +29,6 @@ app.use('/api/reviews', reviewRoutes);
 app.use(express.json());
 app.use('/api/game', game);
 
-// Handle 404 for undefined routes
 app.use((req, res) => {
   res.status(404).json({ message: "Endpoint not found" });
 });
