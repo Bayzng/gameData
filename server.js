@@ -33,7 +33,7 @@ app.use((req, res) => {
   res.status(404).json({ message: "Endpoint not found" });
 });
 
-// Connect to MongoDB
+
 mongoose.connect(process.env.MONGODB_URI, {
   serverSelectionTimeoutMS: 10000
 })
